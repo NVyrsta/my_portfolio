@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.1bfbeed8.css",
+    "main.js": "/my_portfolio/static/js/main.7592237f.js",
+    "static/media/Christmas.png": "/my_portfolio/static/media/Christmas.3c3c0673afc39250f069.png",
+    "static/media/Bose.png": "/my_portfolio/static/media/Bose.952f839127eb14afb172.png",
+    "static/media/ToDoList.png": "/my_portfolio/static/media/ToDoList.42a99f04d42c391197d6.png",
+    "static/media/cv_nataliia_vyrsta_fullstack.pdf": "/my_portfolio/static/media/cv_nataliia_vyrsta_fullstack.db3d843f5ea6d421c8c7.pdf",
+    "static/media/NiceGadgets.png": "/my_portfolio/static/media/NiceGadgets.266ebbf0a56c40fd19c1.png",
+    "static/media/NV.jpg": "/my_portfolio/static/media/NV.db11c602f97848c141af.jpg",
+    "static/media/Britlex.png": "/my_portfolio/static/media/Britlex.eef64f8602cceb067bcb.png",
+    "static/media/logo.svg": "/my_portfolio/static/media/logo.11fca8575c9786e8985e.svg",
+    "index.html": "/my_portfolio/index.html",
+    "main.1bfbeed8.css.map": "/my_portfolio/static/css/main.1bfbeed8.css.map",
+    "main.7592237f.js.map": "/my_portfolio/static/js/main.7592237f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bfbeed8.css",
+    "static/js/main.7592237f.js"
+  ]
+}
