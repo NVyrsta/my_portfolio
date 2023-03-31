@@ -50,6 +50,7 @@
 
 .skills__level {
   font-size: var(--tiny-font-size);
+  display: none;
 }
 
 /* breakpoints */
