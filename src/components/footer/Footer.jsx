@@ -36,7 +36,11 @@ export const Footer = () => {
           >
             <i class="bx bxl-telegram"></i>
           </a>
-          <a href="#" className="footer__social-link" target="_blank">
+          <a
+            href="https://github.com/NVyrsta"
+            className="footer__social-link"
+            target="_blank"
+          >
             <i class="bx bxl-github"></i>
           </a>
           <a

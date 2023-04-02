@@ -21,22 +21,26 @@ export const Certificates = () => {
         grabCursor={true}
         spaceBetween={24}
         pagination={{
-          clickable: true,
+          clickable: true
         }}
         breakpoints={{
           576: {
-            slidesPerView: 2,
+            slidesPerView: 2
           },
           768: {
             slidesPerView: 2,
-            spaceBetween: 48,
-          },
+            spaceBetween: 48
+          }
         }}
         modules={[Pagination]}
       >
         {Data.map((item) => (
           <SwiperSlide className="certificates__card" key={item}>
-            <img src={item} alt="certificate" className="certificates__img" />
+            <img
+              src={item}
+              alt="certificate"
+              className="certificates__img"
+            />
           </SwiperSlide>
         ))}
       </Swiper>
