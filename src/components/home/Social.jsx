@@ -8,7 +8,7 @@ export const Social = () => {
         className="home__social-icon"
         target="_blank"
       >
-        <i class="uil uil-telegram-alt"></i>{' '}
+        <i class="uil uil-telegram-alt"></i>
       </a>
       <a
         href="https://github.com/NVyrsta"
