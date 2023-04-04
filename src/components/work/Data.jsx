@@ -3,6 +3,7 @@ import Britlex from '../../assets/portfolio_img/Britlex.png';
 import NiceGadgets from '../../assets/portfolio_img/NiceGadgets.png';
 import Bose from '../../assets/portfolio_img/Bose.png';
 import ToDoList from '../../assets/portfolio_img/ToDoList.png';
+import Millionaire from '../../assets/portfolio_img/Millionaire.png';
 
 export const projectsData = [
   {
@@ -44,6 +45,14 @@ export const projectsData = [
     category: 'app',
     code: 'https://github.com/NVyrsta/todo_list',
     demo: 'https://nvyrsta.github.io/todo_list/'
+  },
+  {
+    id: 6,
+    image: Millionaire,
+    title: 'Who Wants to Be a Millionaire',
+    category: 'app',
+    code: 'https://github.com/NVyrsta/millionaire_trivia',
+    demo: 'https://nvyrsta.github.io/millionaire_trivia'
   }
 ];
 
