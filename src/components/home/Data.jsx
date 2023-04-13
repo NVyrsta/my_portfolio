@@ -58,7 +58,7 @@ export const Data = () => {
 
       <h3 className="home__subtitle">Full-stack Developer</h3>
       <p className="home__description">
-        I'm a self-taught full-stack software developer with 1+ years of web
+        I'm a full-stack software developer with 1+ years of web
         development. I'm proficient in JavaScript, React, and TypeScript, and
         have worked with Node, Express, and Redux. I have a passion for learning
         new technologies and approaches.

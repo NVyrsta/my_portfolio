@@ -108,6 +108,7 @@ export const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Insert your name"
+                required
               />
             </div>
 
@@ -120,6 +121,7 @@ export const Contact = () => {
                 name="email"
                 className="contact__form-input"
                 placeholder="Insert your email"
+                required
               />
             </div>
 
