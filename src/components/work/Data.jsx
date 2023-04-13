@@ -46,14 +46,14 @@ export const projectsData = [
     code: 'https://github.com/NVyrsta/todo_list',
     demo: 'https://nvyrsta.github.io/todo_list/'
   },
-  {
-    id: 6,
-    image: Millionaire,
-    title: 'Who Wants to Be a Millionaire',
-    category: 'app',
-    code: 'https://github.com/NVyrsta/millionaire_trivia',
-    demo: 'https://nvyrsta.github.io/millionaire_trivia'
-  }
+  // {
+  //   id: 6,
+  //   image: Millionaire,
+  //   title: 'Who Wants to Be a Millionaire',
+  //   category: 'app',
+  //   code: 'https://github.com/NVyrsta/millionaire_trivia',
+  //   demo: 'https://nvyrsta.github.io/millionaire_trivia'
+  // }
 ];
 
 export const projectsNav = [
