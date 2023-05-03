@@ -46,7 +46,7 @@ export const Frontend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Redux</h3>
+              <h3 className="skills__name">Vue</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
@@ -55,7 +55,16 @@ export const Frontend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">CSS</h3>
+              <h3 className="skills__name">Angular</h3>
+              <span className="skills__level">Basic</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">CSS/ SCSS</h3>
               <span className="skills__level">Advanced</span>
             </div>
           </div>
@@ -73,7 +82,7 @@ export const Frontend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Bootstrap</h3>
+              <h3 className="skills__name">Bootstrap, Tailwind</h3>
               <span className="skills__level">Intemediate</span>
             </div>
           </div>

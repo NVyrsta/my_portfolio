@@ -117,6 +117,7 @@
 }
 
 .nav__logo {
+  color: transparent;
   background: url('../../assets/logo.svg');
   background-repeat: no-repeat;
   background-size: contain;

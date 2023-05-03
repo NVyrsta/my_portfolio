@@ -24,7 +24,7 @@ export const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="#home" className="nav__logo"></a>
+        <a href="#home" className="nav__logo">LOGO</a>
 
         <div
           className={classnames('nav__menu', {

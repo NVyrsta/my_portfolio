@@ -33,6 +33,7 @@ export const Footer = () => {
             href="https://t.me/nataliia_vyrsta"
             className="footer__social-link"
             target="_blank"
+            rel="noreferrer"
           >
             <i class="bx bxl-telegram"></i>
           </a>
@@ -40,6 +41,7 @@ export const Footer = () => {
             href="https://github.com/NVyrsta"
             className="footer__social-link"
             target="_blank"
+            rel="noreferrer"
           >
             <i class="bx bxl-github"></i>
           </a>
@@ -47,6 +49,7 @@ export const Footer = () => {
             href="https://www.linkedin.com/in/nataliia-vyrsta/"
             className="footer__social-link"
             target="_blank"
+            rel="noreferrer"
           >
             <i class="bx bxl-linkedin"></i>
           </a>

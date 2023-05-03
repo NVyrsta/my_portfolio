@@ -3,9 +3,18 @@ import Britlex from '../../assets/portfolio_img/Britlex.png';
 import NiceGadgets from '../../assets/portfolio_img/NiceGadgets.png';
 import Bose from '../../assets/portfolio_img/Bose.png';
 import ToDoList from '../../assets/portfolio_img/ToDoList.png';
-import Millionaire from '../../assets/portfolio_img/Millionaire.png';
+// import Millionaire from '../../assets/portfolio_img/Millionaire.png';
+import Coderiver from '../../assets/portfolio_img/Coderiver.png';
 
 export const projectsData = [
+    {
+    id: 7,
+    image: Coderiver,
+    title: 'SVG animation',
+    category: 'landing',
+    code: 'https://github.com/NVyrsta/coderiver',
+    demo: 'https://nvyrsta.github.io/coderiver/'
+  },
   {
     id: 1,
     image: Christmas,
@@ -54,6 +63,7 @@ export const projectsData = [
   //   code: 'https://github.com/NVyrsta/millionaire_trivia',
   //   demo: 'https://nvyrsta.github.io/millionaire_trivia'
   // }
+
 ];
 
 export const projectsNav = [

@@ -48,6 +48,7 @@ export const Contact = () => {
                 href="https://www.linkedin.com/in/nataliia-vyrsta/"
                 className="contact__button"
                 target="_blank"
+                rel="noreferrer"
               >
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -66,6 +67,7 @@ export const Contact = () => {
                 href="mailto:natali.vyrsta@gmail.com"
                 className="contact__button"
                 target="_blank"
+                rel="noreferrer"
               >
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -82,6 +84,7 @@ export const Contact = () => {
                 href="https://t.me/nataliia_vyrsta"
                 className="contact__button"
                 target="_blank"
+                rel="noreferrer"
               >
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
