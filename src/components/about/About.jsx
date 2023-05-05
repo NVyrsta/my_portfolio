@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 import NV from '../../assets/NV.jpeg';
-import CV from '../../assets/cv_nataliia_vyrsta_fullstack.pdf';
+import CV from '../../assets/cv_nataliia_vyrsta_frontend-fullstack.pdf';
 import { Info } from './Info';
 
 export const About = () => {
