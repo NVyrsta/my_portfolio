@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.c4753781.css",
-    "main.js": "/my_portfolio/static/js/main.0e625ced.js",
-    "static/media/Millionaire.png": "/my_portfolio/static/media/Millionaire.337a9ec9d8fb053964ef.png",
+    "main.css": "/my_portfolio/static/css/main.9cc05753.css",
+    "main.js": "/my_portfolio/static/js/main.4e908acb.js",
     "static/media/Christmas.png": "/my_portfolio/static/media/Christmas.3c3c0673afc39250f069.png",
     "static/media/19.png": "/my_portfolio/static/media/19.a67ee70e9f9849b06ae9.png",
     "static/media/0.png": "/my_portfolio/static/media/0.6d88f20ae2b735f2d16c.png",
@@ -27,17 +26,18 @@
     "static/media/9.png": "/my_portfolio/static/media/9.57b4405e9aed4865218f.png",
     "static/media/2.png": "/my_portfolio/static/media/2.fe2b3fddda5d6e033359.png",
     "static/media/7.png": "/my_portfolio/static/media/7.0d399a095a932ca01368.png",
-    "static/media/cv_nataliia_vyrsta_fullstack.pdf": "/my_portfolio/static/media/cv_nataliia_vyrsta_fullstack.ec720f4745ccf4d06ca0.pdf",
+    "static/media/cv_nataliia_vyrsta_frontend-fullstack.pdf": "/my_portfolio/static/media/cv_nataliia_vyrsta_frontend-fullstack.2b45acc74366759703ea.pdf",
+    "static/media/Coderiver.png": "/my_portfolio/static/media/Coderiver.2b7eaaa1b1cb5f098d1a.png",
     "static/media/NiceGadgets.png": "/my_portfolio/static/media/NiceGadgets.266ebbf0a56c40fd19c1.png",
     "static/media/NV.jpeg": "/my_portfolio/static/media/NV.64471945c5582d5e6a28.jpeg",
     "static/media/Britlex.png": "/my_portfolio/static/media/Britlex.eef64f8602cceb067bcb.png",
     "static/media/logo.svg": "/my_portfolio/static/media/logo.11fca8575c9786e8985e3bd8844b8d0e.svg",
     "index.html": "/my_portfolio/index.html",
-    "main.c4753781.css.map": "/my_portfolio/static/css/main.c4753781.css.map",
-    "main.0e625ced.js.map": "/my_portfolio/static/js/main.0e625ced.js.map"
+    "main.9cc05753.css.map": "/my_portfolio/static/css/main.9cc05753.css.map",
+    "main.4e908acb.js.map": "/my_portfolio/static/js/main.4e908acb.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4753781.css",
-    "static/js/main.0e625ced.js"
+    "static/css/main.9cc05753.css",
+    "static/js/main.4e908acb.js"
   ]
 }
