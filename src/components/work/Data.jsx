@@ -5,15 +5,24 @@ import Bose from '../../assets/portfolio_img/Bose.png';
 import ToDoList from '../../assets/portfolio_img/ToDoList.png';
 // import Millionaire from '../../assets/portfolio_img/Millionaire.png';
 import Coderiver from '../../assets/portfolio_img/Coderiver.png';
+import Workout from '../../assets/portfolio_img/Workout.png';
 
 export const projectsData = [
     {
-    id: 7,
+    id: 8,
     image: Coderiver,
     title: 'SVG animation',
     category: 'landing',
     code: 'https://github.com/NVyrsta/coderiver',
     demo: 'https://nvyrsta.github.io/coderiver/'
+  },
+    {
+    id: 7,
+    image: Workout,
+    title: 'Workout: Sport Clothes Store',
+    category: 'e-commerce',
+    code: 'https://github.com/NVyrsta/workout',
+    demo: 'https://workout-next-1tnb72qdc-nvyrsta.vercel.app/'
   },
   {
     id: 1,
