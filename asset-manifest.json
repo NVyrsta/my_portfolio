@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my_portfolio/static/css/main.9cc05753.css",
-    "main.js": "/my_portfolio/static/js/main.8397088b.js",
+    "main.js": "/my_portfolio/static/js/main.48e077f9.js",
     "static/media/Christmas.png": "/my_portfolio/static/media/Christmas.3c3c0673afc39250f069.png",
     "static/media/19.png": "/my_portfolio/static/media/19.a67ee70e9f9849b06ae9.png",
     "static/media/0.png": "/my_portfolio/static/media/0.6d88f20ae2b735f2d16c.png",
@@ -27,6 +27,7 @@
     "static/media/2.png": "/my_portfolio/static/media/2.fe2b3fddda5d6e033359.png",
     "static/media/7.png": "/my_portfolio/static/media/7.0d399a095a932ca01368.png",
     "static/media/cv_nataliia_vyrsta_frontend-fullstack.pdf": "/my_portfolio/static/media/cv_nataliia_vyrsta_frontend-fullstack.2b45acc74366759703ea.pdf",
+    "static/media/Workout.png": "/my_portfolio/static/media/Workout.427513311865e5ef1029.png",
     "static/media/Coderiver.png": "/my_portfolio/static/media/Coderiver.2b7eaaa1b1cb5f098d1a.png",
     "static/media/NiceGadgets.png": "/my_portfolio/static/media/NiceGadgets.266ebbf0a56c40fd19c1.png",
     "static/media/NV.jpeg": "/my_portfolio/static/media/NV.64471945c5582d5e6a28.jpeg",
@@ -34,10 +35,10 @@
     "static/media/logo.svg": "/my_portfolio/static/media/logo.11fca8575c9786e8985e3bd8844b8d0e.svg",
     "index.html": "/my_portfolio/index.html",
     "main.9cc05753.css.map": "/my_portfolio/static/css/main.9cc05753.css.map",
-    "main.8397088b.js.map": "/my_portfolio/static/js/main.8397088b.js.map"
+    "main.48e077f9.js.map": "/my_portfolio/static/js/main.48e077f9.js.map"
   },
   "entrypoints": [
     "static/css/main.9cc05753.css",
-    "static/js/main.8397088b.js"
+    "static/js/main.48e077f9.js"
   ]
 }
