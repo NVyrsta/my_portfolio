@@ -4,6 +4,20 @@
 	http://jedwatson.github.io/classnames
 */
 
+/*!
+ * days <https://github.com/jonschlinkert/days>
+ *
+ * Copyright (c) 2014-2017, Jon Schlinkert.
+ * Released under the MIT License.
+ */
+
+/*!
+ * months <https://github.com/datetime/months>
+ *
+ * Copyright (c) 2014-2017, Jon Schlinkert.
+ * Released under the MIT License.
+ */
+
 /**
  * @license React
  * react-dom.production.min.js
