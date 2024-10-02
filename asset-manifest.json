@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.9cc05753.css",
-    "main.js": "/my_portfolio/static/js/main.48e077f9.js",
+    "main.css": "/my_portfolio/static/css/main.41de638d.css",
+    "main.js": "/my_portfolio/static/js/main.7166e3ad.js",
     "static/media/Christmas.png": "/my_portfolio/static/media/Christmas.3c3c0673afc39250f069.png",
     "static/media/19.png": "/my_portfolio/static/media/19.a67ee70e9f9849b06ae9.png",
     "static/media/0.png": "/my_portfolio/static/media/0.6d88f20ae2b735f2d16c.png",
@@ -32,13 +32,13 @@
     "static/media/NiceGadgets.png": "/my_portfolio/static/media/NiceGadgets.266ebbf0a56c40fd19c1.png",
     "static/media/NV.jpeg": "/my_portfolio/static/media/NV.64471945c5582d5e6a28.jpeg",
     "static/media/Britlex.png": "/my_portfolio/static/media/Britlex.eef64f8602cceb067bcb.png",
-    "static/media/logo.svg": "/my_portfolio/static/media/logo.11fca8575c9786e8985e3bd8844b8d0e.svg",
+    "static/media/logo.svg": "/my_portfolio/static/media/logo.4c9650749f1f95c2d10a9cea967a0975.svg",
     "index.html": "/my_portfolio/index.html",
-    "main.9cc05753.css.map": "/my_portfolio/static/css/main.9cc05753.css.map",
-    "main.48e077f9.js.map": "/my_portfolio/static/js/main.48e077f9.js.map"
+    "main.41de638d.css.map": "/my_portfolio/static/css/main.41de638d.css.map",
+    "main.7166e3ad.js.map": "/my_portfolio/static/js/main.7166e3ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cc05753.css",
-    "static/js/main.48e077f9.js"
+    "static/css/main.41de638d.css",
+    "static/js/main.7166e3ad.js"
   ]
 }
