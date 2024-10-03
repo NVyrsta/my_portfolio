@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f76ce196.css",
-    "main.js": "/static/js/main.331cd44d.js",
-    "static/media/Christmas.png": "/static/media/Christmas.3c3c0673afc39250f069.png",
+    "main.css": "/static/css/main.d873671f.css",
+    "main.js": "/static/js/main.1e504dfd.js",
     "static/media/19.png": "/static/media/19.a67ee70e9f9849b06ae9.png",
     "static/media/0.png": "/static/media/0.6d88f20ae2b735f2d16c.png",
     "static/media/16.png": "/static/media/16.b525e35d6f2165c1398d.png",
@@ -10,8 +9,6 @@
     "static/media/11.png": "/static/media/11.51d5f1a8774405cb5f67.png",
     "static/media/6.png": "/static/media/6.cb8a8e3cd232ba89bd07.png",
     "static/media/8.png": "/static/media/8.4697ea287fe6dbd0f5ba.png",
-    "static/media/Bose.png": "/static/media/Bose.952f839127eb14afb172.png",
-    "static/media/ToDoList.png": "/static/media/ToDoList.42a99f04d42c391197d6.png",
     "static/media/1.png": "/static/media/1.88179d627f244efb5f73.png",
     "static/media/17.png": "/static/media/17.eb0c71da27f9e94d215d.png",
     "static/media/15.png": "/static/media/15.115957f1d672fda34b07.png",
@@ -26,19 +23,17 @@
     "static/media/9.png": "/static/media/9.57b4405e9aed4865218f.png",
     "static/media/2.png": "/static/media/2.fe2b3fddda5d6e033359.png",
     "static/media/7.png": "/static/media/7.0d399a095a932ca01368.png",
-    "static/media/cv_nataliia_vyrsta_frontend-fullstack.pdf": "/static/media/cv_nataliia_vyrsta_frontend-fullstack.2b45acc74366759703ea.pdf",
-    "static/media/Workout.png": "/static/media/Workout.427513311865e5ef1029.png",
-    "static/media/Coderiver.png": "/static/media/Coderiver.2b7eaaa1b1cb5f098d1a.png",
-    "static/media/NiceGadgets.png": "/static/media/NiceGadgets.266ebbf0a56c40fd19c1.png",
+    "static/media/cv_nataliia_vyrsta_frontend.pdf": "/static/media/cv_nataliia_vyrsta_frontend.2f5a81b0cb7e3db90d7c.pdf",
     "static/media/NV.jpeg": "/static/media/NV.64471945c5582d5e6a28.jpeg",
-    "static/media/Britlex.png": "/static/media/Britlex.eef64f8602cceb067bcb.png",
+    "static/media/mask3.png": "/static/media/mask3.af80714f26c281306cc6.png",
     "static/media/logo.svg": "/static/media/logo.4c9650749f1f95c2d10a9cea967a0975.svg",
+    "static/media/fixIQ.svg": "/static/media/fixIQ.c7bb2e3128da806ee41ad01db336e661.svg",
     "index.html": "/index.html",
-    "main.f76ce196.css.map": "/static/css/main.f76ce196.css.map",
-    "main.331cd44d.js.map": "/static/js/main.331cd44d.js.map"
+    "main.d873671f.css.map": "/static/css/main.d873671f.css.map",
+    "main.1e504dfd.js.map": "/static/js/main.1e504dfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.f76ce196.css",
-    "static/js/main.331cd44d.js"
+    "static/css/main.d873671f.css",
+    "static/js/main.1e504dfd.js"
   ]
 }
