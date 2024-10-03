@@ -1,0 +1,8 @@
+.contributions .Link--muted {
+  display: none;
+}
+
+.contributions .wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}

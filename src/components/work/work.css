@@ -1,115 +1,99 @@
-.work__filters {
+.work-experience {
+  max-width: 750px;
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 25px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 0.75rem;
-  margin-bottom: var(--mb-2);
-}
-
-.work__item {
-  cursor: pointer;
-  color: var(--title-color);
-  padding: 0.25rem 0.75rem;
-  font-weight: var(--font-medium);
-  border-radius: 0.5rem;
-  text-transform: capitalize;
-}
-
-.work__item:hover {
-  background-color: var(--title-color);
-  color: var(--container-color);
-}
-
-.work__container {
-  grid-template-columns: repeat(2, max-content);
-  gap: 3rem;
-  justify-content: center;
-}
-
-.work__card {
+  flex-direction: column;
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1.25rem;
-  border-radius: 1rem;
+  padding: 2rem 4rem;
+  border-radius: 1.25rem;
+  margin: 0 auto 40px;
 }
 
-.work__img {
-  width: 295px;
-  height: 60%;
-  border-radius: 1rem;
-  margin-bottom: var(--mb-1);
-}
-
-.work__title {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-  margin-bottom: var(--m-0-5);
-}
-
-.work__button {
-  color: var(--text-color);
-  font-size: var(--small-font-size);
+.company-info {
   display: flex;
   align-items: center;
-  column-gap: 0.25rem;
+  margin-bottom: 20px;
 }
 
-.work__button-icon {
-  transition: 0.4s;
-  font-size: 1rem;
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
 }
 
-.work__button:hover .work__button-icon {
-  transform: translateX(0.25rem);
+.company-logo {
+  width: 50px;
+  height: 30px;
 }
 
-/* active tab */
-.active-tab {
-  background-color: var(--title-color);
-  color: var(--container-color);
+.company-name {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 0;
 }
 
-/* breakpoints */
-@media screen and (max-width: 992px) {
-  .work__container {
-    gap: 1.25rem;
-  }
-
-  .work__card {
-    padding: 1rem;
-  }
-
-  .work__img {
-    margin-bottom: 0.75rem;
-  }
-
-  .work__title {
-    margin-bottom: 0.25rem;
-  }
+.job-title {
+  font-size: 1.2em;
+  color: #7f8c8d;
+  margin: 5px 0;
 }
 
-@media screen and (max-width: 768px) {
-  .work__container {
-    grid-template-columns: max-content;
-  }
+.work-period {
+  font-size: 1em;
+  color: #95a5a6;
+  margin: 0;
 }
 
-@media screen and (max-width: 576px) {
-  .work__container {
-    grid-template-columns: 1fr;
-  }
-
-  .work__img {
-    width: 100%;
-  }
+.job-details {
+  padding-top: 10px;
+  border-top: 1px solid #e0e0e0;
 }
 
-@media screen and (max-width: 350px) {
-  .work__item {
-    font-size: var(--small-font-size);
+.responsibilities {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.responsibilities li {
+  margin-bottom: 12px;
+  font-size: 1.05em;
+  color: var(--text-color);
+}
+
+.responsibilities li strong {
+  color: #333;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .work-experience {
+    padding: 15px;
   }
 
-  .work__filters {
-    column-gap: 0.25rem;
+  .logo-container {
+    width: 40px;
+    height: 40px;
+  }
+
+  .company-name {
+    font-size: 1.3em;
+  }
+
+  .job-title {
+    font-size: 1.1em;
+  }
+
+  .responsibilities {
+    padding-left: 15px;
   }
 }

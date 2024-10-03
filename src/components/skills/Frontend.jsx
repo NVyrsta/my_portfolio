@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const Frontend = () => {
   return (
@@ -7,7 +7,7 @@ export const Frontend = () => {
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">JavaScript</h3>
@@ -16,16 +16,16 @@ export const Frontend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">TypeScript</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
-          
+
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">jQuery</h3>
@@ -34,7 +34,7 @@ export const Frontend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">React</h3>
@@ -43,7 +43,7 @@ export const Frontend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">Redux</h3>
@@ -52,7 +52,7 @@ export const Frontend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">Next.js</h3>
@@ -61,25 +61,25 @@ export const Frontend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Vue</h3>
+              <h3 className="skills__name">Vue.js</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
 
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+          {/* <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">Angular</h3>
               <span className="skills__level">Basic</span>
             </div>
-          </div>
+          </div> */}
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">CSS/ SCSS</h3>
@@ -88,7 +88,7 @@ export const Frontend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">HTML</h3>
@@ -97,7 +97,7 @@ export const Frontend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">Bootstrap, Tailwind</h3>
@@ -106,7 +106,7 @@ export const Frontend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">Git</h3>
@@ -117,4 +117,4 @@ export const Frontend = () => {
       </div>
     </div>
   );
-}
+};

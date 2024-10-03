@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const Backend = () => {
   return (
@@ -7,7 +7,7 @@ export const Backend = () => {
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">Node.js</h3>
@@ -16,7 +16,7 @@ export const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">Express.js</h3>
@@ -25,7 +25,7 @@ export const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">SQL</h3>
@@ -34,7 +34,7 @@ export const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">Fetch, REST API</h3>
@@ -45,4 +45,4 @@ export const Backend = () => {
       </div>
     </div>
   );
-}
+};

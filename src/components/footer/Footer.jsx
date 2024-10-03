@@ -1,28 +1,40 @@
-import React from 'react';
-import './footer.css';
-import Logo from '../../assets/logo.svg';
+import React from "react";
+import "./footer.css";
+import Logo from "../../assets/logo.svg";
 
 export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
         <h1 className="footer__title">
-          <img src={Logo} alt="Vyrsta" />
+          <img
+            src={Logo}
+            alt="Vyrsta"
+          />
         </h1>
 
         <ul className="footer__list">
           <li>
-            <a href="#about" className="footer__link">
+            <a
+              href="#about"
+              className="footer__link"
+            >
               About
             </a>
           </li>
-          <li>
-            <a href="#portfolio" className="footer__link">
+          {/* <li>
+            <a
+              href="#portfolio"
+              className="footer__link"
+            >
               Projects
             </a>
-          </li>
+          </li> */}
           <li>
-            <a href="#skills" className="footer__link">
+            <a
+              href="#skills"
+              className="footer__link"
+            >
               Skills
             </a>
           </li>
@@ -35,7 +47,7 @@ export const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="bx bxl-telegram"></i>
+            <i className="bx bxl-telegram"></i>
           </a>
           <a
             href="https://github.com/NVyrsta"
@@ -43,7 +55,7 @@ export const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="bx bxl-github"></i>
+            <i className="bx bxl-github"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/nataliia-vyrsta/"
@@ -51,7 +63,7 @@ export const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="bx bxl-linkedin"></i>
+            <i className="bx bxl-linkedin"></i>
           </a>
         </div>
 
@@ -61,4 +73,4 @@ export const Footer = () => {
       </div>
     </footer>
   );
-}
+};

@@ -1,20 +1,25 @@
-import React from 'react';
-import './home.css';
-import { Social } from './Social';
-import { Data } from './Data';
-import { ScrollDown } from './ScrollDown';
+import React from "react";
+import "./home.css";
+import { Social } from "./Social";
+import { Data } from "./Data";
+import { ScrollDown } from "./ScrollDown";
 
 export const Home = () => {
   return (
-    <section className="home section" id="home">
+    <section
+      className="home section"
+      id="home"
+    >
       <div className="home__container container grid">
         <div className="home__content grid">
           <Social />
 
-          <div
-            className="home__img"
-            style={{ borderRadius: '60% 40% 30% 70%/60% 30% 70% 40%' }}
-          ></div>
+          <div className="home__wrap">
+            <div
+              className="home__img"
+              // style={{ borderRadius: '60% 40% 30% 70%/60% 30% 70% 40%' }}
+            ></div>
+          </div>
 
           <Data />
         </div>
@@ -23,4 +28,4 @@ export const Home = () => {
       </div>
     </section>
   );
-}
+};

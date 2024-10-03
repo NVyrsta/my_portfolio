@@ -1,35 +1,60 @@
-import React from 'react';
-import './about.css';
-import NV from '../../assets/NV.jpeg';
-import CV from '../../assets/cv_nataliia_vyrsta_frontend-fullstack.pdf';
-import { Info } from './Info';
+import React from "react";
+import "./about.css";
+// import NV from "../../assets/NV.jpeg";
+import CV from "../../assets/cv_nataliia_vyrsta_frontend.pdf";
+import { Info } from "./Info";
 
 export const About = () => {
   return (
-    <section className="section about" id="about">
+    <section
+      className="section about"
+      id="about"
+    >
       <h2 className="section__title">About Me</h2>
       <span className="section__subtitle">My introduction</span>
 
       <div className="about__container container grid">
-        <img src={NV} alt="Nataliia Vyrsta photo" className="about__img" />
+        {/* <div className="mask-container">
+          <img
+            src={NV}
+            alt="Nataliia Vyrsta"
+            className="about__img"
+          />
+        </div> */}
 
         <div className="about__data">
           <Info />
 
           <p className="about__description">
-            Developing accessible, cross-browser-compatible landing pages and
-            multi-page websites using pure JavaScript and frameworks while
-            adhering to SEO and accessibility best practices. Writing SQL
-            queries for database management. Developing server-side application
-            code and handling API requests. Solving algorithmic problems to
-            optimize website performance. Developing pixel-perfect design
-            implementations.
+            Delivering <strong>scalable</strong>, <strong>modular</strong> web
+            solutions, including <strong>micro frontends</strong>, for a range
+            of industries. From dynamic, <strong>responsive websites</strong> to
+            full-fledged <strong>CRM systems</strong> and{" "}
+            <strong>e-commerce platforms</strong>, the focus is on creating
+            applications that are not only <strong>user-friendly</strong> but
+            also <strong>efficient</strong> . Specializing in technologies such
+            as <strong>Vue.js</strong>, <strong>Solid.js</strong>,{" "}
+            <strong>React</strong>, and <strong>Next.js</strong>, as well as
+            working with <strong>TypeScript</strong> for type-safe development
+            and <strong>database integration</strong> for robust data
+            management. Projects often include complex features like{" "}
+            <strong>API integrations</strong>,{" "}
+            <strong>multilingual support (i18n)</strong>, and{" "}
+            <strong>microfrontend architecture</strong> to ensure seamless
+            scalability. Whether building custom <strong>dashboards</strong> or
+            optimizing existing web platforms, the goal is to deliver{" "}
+            <strong>high-performance</strong>, <strong>maintainable</strong>{" "}
+            code with attention to every detail.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
+          <a
+            download=""
+            href={CV}
+            className="button button--flex"
+          >
             Download CV
             <svg
-              class="button__icon"
+              className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -58,4 +83,4 @@ export const About = () => {
       </div>
     </section>
   );
-}
+};

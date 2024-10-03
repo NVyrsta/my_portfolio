@@ -1,13 +1,11 @@
 .about__container {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   align-items: center;
   column-gap: 4rem;
 }
 
 .about__img {
-  width: 350px;
   border-radius: 1.5rem;
-  justify-self: center;
 }
 
 .about__info {
@@ -40,8 +38,24 @@
 }
 
 .about__description {
-  padding: 0 4rem 0 0;
   margin-bottom: var(--mb-2-5);
+  text-align: justify;
+}
+
+.about__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 750px;
+  margin: 0 auto;
+  color: var(--text-color);
+}
+
+.about__data strong {
+  color: #333;
+  font-weight: 600;
 }
 
 /* breakpoints */
@@ -52,7 +66,7 @@
   }
 
   .about__img {
-    width: 220px;
+    height: 400px;
   }
 
   .about__box {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const Social = () => {
   return (
@@ -9,7 +9,7 @@ export const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-telegram-alt"></i>
+        <i className="uil uil-telegram-alt"></i>
       </a>
       <a
         href="https://github.com/NVyrsta"
@@ -17,7 +17,7 @@ export const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-github-alt"></i>
+        <i className="uil uil-github-alt"></i>
       </a>
       <a
         href="https://www.linkedin.com/in/nataliia-vyrsta/"
@@ -25,8 +25,8 @@ export const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-linkedin-alt"></i>
+        <i className="uil uil-linkedin-alt"></i>
       </a>
     </div>
   );
-}
+};

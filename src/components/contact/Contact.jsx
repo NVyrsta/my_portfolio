@@ -1,33 +1,52 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import './contact.css';
+import React, { useState, useRef } from "react";
+import emailjs from "emailjs-com";
+import "./contact.css";
 
 export const Contact = () => {
-  const form = useRef();
+  const [form, setForm] = useState({
+    subject: "",
+    email: "",
+    message: "",
+  });
+  const [isPending, setIsPending] = useState(false);
+  const formRef = useRef();
 
-  const sendEmail = (e) => {
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const sendEmail = async (e) => {
     e.preventDefault();
+    setIsPending(true);
 
-    emailjs
-      .sendForm(
-        'service_s5z8l1o',
-        'template_4zjgbda',
-        form.current,
-        'qVenSVyTLlLVAmyAO'
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-    );
-    e.target.reset();
-  }
-    
+    try {
+      await emailjs.sendForm(
+        "service_9vqmojr",
+        "template_utr0z3k",
+        formRef.current,
+        "8vMB1L_9XmHhJo-sK"
+      );
+      console.log("Email sent successfully");
+    } catch (error) {
+      console.error("Failed to send email:", error);
+    } finally {
+      setIsPending(false);
+      setForm({
+        subject: "",
+        email: "",
+        message: "",
+      });
+    }
+  };
+
+  const isButtonDisabled = !form.subject || !form.email || !form.message;
+
   return (
-    <section className="section contact" id="contact">
+    <section
+      className="section contact"
+      id="contact"
+    >
       <h2 className="section__title">Get in touch</h2>
       <span className="section__subtitle">Contact Me</span>
 
@@ -97,18 +116,22 @@ export const Contact = () => {
           <h3 className="contact__title">Contact me</h3>
 
           <form
-            ref={form}
+            ref={formRef}
             onSubmit={sendEmail}
-            action=""
             className="contact__form"
           >
             <div className="contact__form-div">
-              <label htmlFor="" className="contact__form-tag">
+              <label
+                htmlFor=""
+                className="contact__form-tag"
+              >
                 Name
               </label>
               <input
                 type="text"
-                name="name"
+                name="subject"
+                value={form.subject}
+                onChange={handleChange}
                 className="contact__form-input"
                 placeholder="Insert your name"
                 required
@@ -116,12 +139,17 @@ export const Contact = () => {
             </div>
 
             <div className="contact__form-div">
-              <label htmlFor="" className="contact__form-tag">
+              <label
+                htmlFor=""
+                className="contact__form-tag"
+              >
                 Mail
               </label>
               <input
                 type="email"
                 name="email"
+                value={form.email}
+                onChange={handleChange}
                 className="contact__form-input"
                 placeholder="Insert your email"
                 required
@@ -129,11 +157,16 @@ export const Contact = () => {
             </div>
 
             <div className="contact__form-div  contact__form-area">
-              <label htmlFor="" className="contact__form-tag">
+              <label
+                htmlFor=""
+                className="contact__form-tag"
+              >
                 Message
               </label>
               <textarea
                 name="message"
+                value={form.message}
+                onChange={handleChange}
                 cols="30"
                 rows="10"
                 className="contact__form-input"
@@ -141,25 +174,39 @@ export const Contact = () => {
               ></textarea>
             </div>
 
-            <button className="button button--flex">
+            <button
+              className="button button--flex submit-btn"
+              type="submit"
+              disabled={isButtonDisabled || isPending}
+            >
               Send Message
-              <svg
-                class="button__icon"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-              >
-                <path
-                  d="M14.2199 21.9352C13.0399 21.9352 11.3699 21.1052 10.0499 17.1352L9.32988 14.9752L7.16988 14.2552C3.20988 12.9352 2.37988 11.2652 2.37988 10.0852C2.37988 8.91525 3.20988 7.23525 7.16988 5.90525L15.6599 3.07525C17.7799 2.36525 19.5499 2.57525 20.6399 3.65525C21.7299 4.73525 21.9399 6.51525 21.2299 8.63525L18.3999 17.1252C17.0699 21.1052 15.3999 21.9352 14.2199 21.9352ZM7.63988 7.33525C4.85988 8.26525 3.86988 9.36525 3.86988 10.0852C3.86988 10.8052 4.85988 11.9052 7.63988 12.8252L10.1599 13.6652C10.3799 13.7352 10.5599 13.9152 10.6299 14.1352L11.4699 16.6552C12.3899 19.4352 13.4999 20.4252 14.2199 20.4252C14.9399 20.4252 16.0399 19.4352 16.9699 16.6552L19.7999 8.16525C20.3099 6.62525 20.2199 5.36525 19.5699 4.71525C18.9199 4.06525 17.6599 3.98525 16.1299 4.49525L7.63988 7.33525Z"
-                  fill="var(--container-color)"
-                ></path>
-                <path
-                  d="M10.11 14.7052C9.92005 14.7052 9.73005 14.6352 9.58005 14.4852C9.29005 14.1952 9.29005 13.7152 9.58005 13.4252L13.16 9.83518C13.45 9.54518 13.93 9.54518 14.22 9.83518C14.51 10.1252 14.51 10.6052 14.22 10.8952L10.64 14.4852C10.5 14.6352 10.3 14.7052 10.11 14.7052Z"
-                  fill="var(--container-color)"
-                ></path>
-              </svg>
+              {isPending ? (
+                <svg
+                  className="animate-spin button__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 1024 1024"
+                  width="24"
+                  height="24"
+                >
+                  <path
+                    d="M512 1024c-69.1 0-136.2-13.5-199.3-40.2C251.7 958 197 921 150 874c-47-47-84-101.7-109.8-162.7C13.5 648.2 0 581.1 0 512c0-19.9 16.1-36 36-36s36 16.1 36 36c0 59.4 11.6 117 34.6 171.3c22.2 52.4 53.9 99.5 94.3 139.9c40.4 40.4 87.5 72.2 139.9 94.3C395 940.4 452.6 952 512 952c59.4 0 117-11.6 171.3-34.6c52.4-22.2 99.5-53.9 139.9-94.3c40.4-40.4 72.2-87.5 94.3-139.9C940.4 629 952 571.4 952 512c0-59.4-11.6-117-34.6-171.3a440.45 440.45 0 0 0-94.3-139.9a437.71 437.71 0 0 0-139.9-94.3C629 83.6 571.4 72 512 72c-19.9 0-36-16.1-36-36s16.1-36 36-36c69.1 0 136.2 13.5 199.3 40.2C772.3 66 827 103 874 150c47 47 83.9 101.8 109.7 162.7c26.7 63.1 40.2 130.2 40.2 199.3s-13.5 136.2-40.2 199.3C958 772.3 921 827 874 874c-47 47-101.8 83.9-162.7 109.7c-63.1 26.8-130.2 40.3-199.3 40.3z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              ) : (
+                <svg
+                  className="button__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                >
+                  <path
+                    d="M3.4 20.4l17.45-7.48a1 1 0 0 0 0-1.84L3.4 3.6a.993.993 0 0 0-1.39.91L2 9.12c0 .5.37.93.87.99L17 12L2.87 13.88c-.5.07-.87.5-.87 1l.01 4.61c0 .71.73 1.2 1.39.91z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              )}
             </button>
           </form>
         </div>
