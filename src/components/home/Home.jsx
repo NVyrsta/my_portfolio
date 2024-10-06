@@ -17,7 +17,7 @@ export const Home = () => {
           <div className="home__wrap">
             <div
               className="home__img"
-              // style={{ borderRadius: '60% 40% 30% 70%/60% 30% 70% 40%' }}
+              style={{ borderRadius: "60% 40% 30% 70%/60% 30% 70% 40%" }}
             ></div>
           </div>
 
