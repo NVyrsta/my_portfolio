@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
 import classnames from "classnames";
+import NoWarBanner from "./NoWarBanner";
 
 export const Header = () => {
   // ---- Toggle Menu
@@ -23,6 +24,8 @@ export const Header = () => {
 
   return (
     <header className="header">
+      <NoWarBanner />
+
       <nav className="nav container">
         <a
           href="#home"

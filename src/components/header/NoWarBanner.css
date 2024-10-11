@@ -1,0 +1,28 @@
+#no-war-banner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 90px;
+  height: 90px;
+  background: url("https://stfalcon.github.io/stopwar/img/stop-war-in-ukraine.png")
+    no-repeat;
+  z-index: 20;
+  border: 0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  #no-war-banner {
+    position: fixed;
+  }
+}
